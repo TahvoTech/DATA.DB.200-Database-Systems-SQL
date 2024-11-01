@@ -10,6 +10,6 @@ Tulostaulun sarakenimet:
 tilaus_id asiakas_id nimi
 */
 
-SELECT asiakas_id, nimi, osoite
-FROM asiakas
-ORDER BY nimi, asiakas_id;
+SELECT tilaus.tilaus_id, asiakas.asiakas_id, asiakas.nimi
+FROM asiakas join tilaus on asiakas.asiakas_id = tilaus.asiakas_id
+ORDER BY tilaus.tilaus_id;
