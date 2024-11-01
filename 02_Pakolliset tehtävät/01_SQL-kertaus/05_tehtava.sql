@@ -2,14 +2,14 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
-Tehtävä 1
-
-Hae kaikki asiakastaulun tiedot.
-Lajittele tulostaulun rivit nousevaan järjestykseen asiakkaan nimen ja asiakas_id:n mukaan.
+ Tehtävä 5
+Hae tuote_id ja nimi postitetuilta (tilauksen tila = 1) tuotteilta, jotka Jaska Jokunen on tilannut.
+Lajittele tulosrivit tuote_id:n perusteella nousevaan järjestykseen.
 
 Tulostaulun sarakenimet:
-asiakas_id nimi osoite
+tuote_id nimi
 */
+
 SELECT asiakas_id, nimi, osoite
 FROM asiakas
 ORDER BY nimi, asiakas_id;

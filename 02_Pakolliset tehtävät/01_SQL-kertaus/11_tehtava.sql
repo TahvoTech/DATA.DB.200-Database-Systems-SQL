@@ -2,14 +2,13 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
-Tehtävä 1
-
-Hae kaikki asiakastaulun tiedot.
-Lajittele tulostaulun rivit nousevaan järjestykseen asiakkaan nimen ja asiakas_id:n mukaan.
+ Tehtävä 11
+Hae asiakas_id ja nimi niille asiakkaille, jotka ovat tilanneet sekä rihvelin että tunkin.
 
 Tulostaulun sarakenimet:
-asiakas_id nimi osoite
+asiakas_id nimi
 */
+
 SELECT asiakas_id, nimi, osoite
 FROM asiakas
 ORDER BY nimi, asiakas_id;

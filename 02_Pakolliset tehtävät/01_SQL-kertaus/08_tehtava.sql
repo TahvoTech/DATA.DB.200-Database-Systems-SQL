@@ -2,14 +2,14 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
-Tehtävä 1
-
-Hae kaikki asiakastaulun tiedot.
-Lajittele tulostaulun rivit nousevaan järjestykseen asiakkaan nimen ja asiakas_id:n mukaan.
+ Tehtävä 8
+Hae kaikki tuote-taulun tiedot niiltä tuotteita, joita ei ole koskaan tilattu.
+Lajittele tulostaulun rivit nousevaan järjestykseen tuote_id:n perusteella.
 
 Tulostaulun sarakenimet:
-asiakas_id nimi osoite
+tuote_id nimi valmistaja hinta
 */
+
 SELECT asiakas_id, nimi, osoite
 FROM asiakas
 ORDER BY nimi, asiakas_id;

@@ -2,14 +2,14 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
-Tehtävä 1
+ Tehtävä 7
+Hae asiakas_id ja nimi asiakkaille, jotka ovat joskus tilanneet kaupasta.
+Lajittele tulostaulun rivit nousevaan järjestykseen asiakas_id:n perusteella.
 
-Hae kaikki asiakastaulun tiedot.
-Lajittele tulostaulun rivit nousevaan järjestykseen asiakkaan nimen ja asiakas_id:n mukaan.
-
-Tulostaulun sarakenimet:
-asiakas_id nimi osoite
+Tulostaulun sarakenimet
+asiakas_id nimi
 */
+
 SELECT asiakas_id, nimi, osoite
 FROM asiakas
 ORDER BY nimi, asiakas_id;

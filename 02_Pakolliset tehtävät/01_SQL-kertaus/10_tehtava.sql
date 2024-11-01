@@ -2,14 +2,15 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
-Tehtävä 1
+Tehtävä 10
 
-Hae kaikki asiakastaulun tiedot.
-Lajittele tulostaulun rivit nousevaan järjestykseen asiakkaan nimen ja asiakas_id:n mukaan.
+Hae asiakas_id ja tilausten lukumäärä asiakkaille, jotka ovat tehneet useamman kuin yhden tilauksen.
+Lajittele tulostaulun rivit nousevaan järjestykseen asiakas_id:n perusteella.
 
 Tulostaulun sarakenimet:
-asiakas_id nimi osoite
+asiakas_id tilaus_lkm
 */
+
 SELECT asiakas_id, nimi, osoite
 FROM asiakas
 ORDER BY nimi, asiakas_id;

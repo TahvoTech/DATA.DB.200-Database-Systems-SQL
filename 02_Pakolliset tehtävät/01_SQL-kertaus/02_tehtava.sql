@@ -2,14 +2,14 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
-Tehtävä 1
-
-Hae kaikki asiakastaulun tiedot.
-Lajittele tulostaulun rivit nousevaan järjestykseen asiakkaan nimen ja asiakas_id:n mukaan.
+Tehtävä 2
+Hae kaikkien eri valmistajien nimet (erinimiset valmistajat tuote-taulusta).
+Lajittele tulostaulun rivit nousevaan järjestykseen valmistajan nimen mukaan.
 
 Tulostaulun sarakenimet:
-asiakas_id nimi osoite
+valmistaja
 */
+
 SELECT asiakas_id, nimi, osoite
 FROM asiakas
 ORDER BY nimi, asiakas_id;
