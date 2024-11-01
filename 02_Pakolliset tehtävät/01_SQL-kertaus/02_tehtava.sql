@@ -10,6 +10,6 @@ Tulostaulun sarakenimet:
 valmistaja
 */
 
-SELECT asiakas_id, nimi, osoite
-FROM asiakas
-ORDER BY nimi, asiakas_id;
+SELECT valmistaja
+FROM tuote
+ORDER BY valmistaja ASC; -- ASC oikeasti tarpeeton, koska se on oletusarvo... mutta laitetaan nyt kuitenkin.
