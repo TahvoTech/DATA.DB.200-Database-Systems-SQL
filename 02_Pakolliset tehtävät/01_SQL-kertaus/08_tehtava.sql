@@ -2,7 +2,7 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
- Tehtävä 8
+Tehtävä 8
 Hae kaikki tuote-taulun tiedot niiltä tuotteita, joita ei ole koskaan tilattu.
 Lajittele tulostaulun rivit nousevaan järjestykseen tuote_id:n perusteella.
 

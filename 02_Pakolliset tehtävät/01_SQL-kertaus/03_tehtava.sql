@@ -2,7 +2,7 @@
 -- jarmo.tahvanainen@tuni.fi
 
 /*
- Tehtävä 3
+Tehtävä 3
 Hae kaikille tilauksille seuraavat tiedot: tilaus_id, tilauksen tehneen asiakkaan id ja nimi.
 Lajittele tulostaulun rivit nousevaan järjestykseen tilaus_id:n mukaan.
 
