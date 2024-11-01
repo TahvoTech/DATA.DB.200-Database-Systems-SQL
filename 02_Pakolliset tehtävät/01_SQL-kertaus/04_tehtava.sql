@@ -10,6 +10,3 @@ Tulostaulun sarakenimet:
 tilaus_id
 */
 
-SELECT asiakas_id, nimi, osoite
-FROM asiakas
-ORDER BY nimi, asiakas_id;

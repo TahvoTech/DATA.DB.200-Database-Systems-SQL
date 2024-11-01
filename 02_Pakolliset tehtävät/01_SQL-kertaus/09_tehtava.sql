@@ -10,7 +10,3 @@ Lajittele tulostaulun rivit nousevaan järjestykseen asiakas_id:n perusteella.
 Tulostaulun sarakenimet:
 asiakas_id nimi tilaus_lkm
 */
-
-SELECT asiakas_id, nimi, osoite
-FROM asiakas
-ORDER BY nimi, asiakas_id;

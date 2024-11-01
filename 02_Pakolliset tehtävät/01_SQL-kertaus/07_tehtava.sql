@@ -10,6 +10,3 @@ Tulostaulun sarakenimet
 asiakas_id nimi
 */
 
-SELECT asiakas_id, nimi, osoite
-FROM asiakas
-ORDER BY nimi, asiakas_id;

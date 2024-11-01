@@ -8,7 +8,3 @@ Hae asiakas_id ja nimi niille asiakkaille, jotka ovat tilanneet sekä rihvelin e
 Tulostaulun sarakenimet:
 asiakas_id nimi
 */
-
-SELECT asiakas_id, nimi, osoite
-FROM asiakas
-ORDER BY nimi, asiakas_id;

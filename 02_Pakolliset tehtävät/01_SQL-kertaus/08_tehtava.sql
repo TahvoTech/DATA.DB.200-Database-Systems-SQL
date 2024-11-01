@@ -9,7 +9,3 @@ Lajittele tulostaulun rivit nousevaan järjestykseen tuote_id:n perusteella.
 Tulostaulun sarakenimet:
 tuote_id nimi valmistaja hinta
 */
-
-SELECT asiakas_id, nimi, osoite
-FROM asiakas
-ORDER BY nimi, asiakas_id;
