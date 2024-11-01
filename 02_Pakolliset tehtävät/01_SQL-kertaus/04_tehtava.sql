@@ -10,3 +10,7 @@ Tulostaulun sarakenimet:
 tilaus_id
 */
 
+SELECT tilaus_id
+FROM asiakas join tilaus on asiakas.asiakas_id = tilaus.asiakas_id
+WHERE asiakas.nimi = 'Jaska Jokunen'
+ORDER BY tilaus_id;
