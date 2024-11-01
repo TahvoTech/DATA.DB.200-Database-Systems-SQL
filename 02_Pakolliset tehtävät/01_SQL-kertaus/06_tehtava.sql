@@ -9,3 +9,9 @@ Lajittele tulostaulun rivit nousevaan järjestykseen tuote_id:n ja tilaus_id:n p
 Tulostaulun sarakenimet:
 tuote_id nimi tilaus_id
 */
+
+SELECT tuote.tuote_id, tuote.nimi, tilaustuote.tilaus_id
+FROM tuote
+LEFT JOIN tilaustuote ON tuote.tuote_id = tilaustuote.tuote_id
+WHERE valmistaja = 'Apple'
+ORDER BY tuote.tuote_id, tilaustuote.tilaus_id;
