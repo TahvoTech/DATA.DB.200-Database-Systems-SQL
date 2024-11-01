@@ -13,3 +13,4 @@ asiakas_id nimi osoite
 
 SELECT asiakas_id, nimi, osoite
 FROM asiakas
+ORDER BY nimi, asiakas_id;
