@@ -10,6 +10,6 @@ Tulostaulun sarakenimet:
 valmistaja
 */
 
-SELECT valmistaja DISTINCT -- haetaan kaikki eri valmistajat
+SELECT DISTINCT valmistaja -- haetaan kaikki eri valmistajat
 FROM tuote
 ORDER BY valmistaja ASC; -- ASC oikeasti tarpeeton, koska se on oletusarvo... mutta laitetaan nyt kuitenkin.
